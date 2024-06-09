@@ -1,0 +1,196 @@
+*{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+body{
+    background-color:#91838d ;
+}
+/*NAVBAR SUPERIOR*/
+.navbar {
+    background-color: #304257;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+.navbar a{
+    color: #f2c4c3;
+    font-size: largeR;
+}
+.navbar a:hover{
+    color: #d76e78;
+}
+.logo{
+    width: 5rem;
+}
+.navbar-toggler-icon {
+    background-color: transparent;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30"><path stroke="rgba(242, 196, 195, 1)" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M4 7h22M4 15h22m-22 8h22"></path></svg>');
+}  
+.navbar-toggler{
+    border: none
+}
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+/*BANNER*/
+.banner {
+    background-image: url(/media/imgs/banner-horizontal.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #bc1829;
+    font-weight: bolder;
+    font-size: 5vw; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+/*SOBRE NOSOTROS*/
+.sobre-nosotros{
+    background-color: #f2c4c3;
+}
+h3{
+    
+    color:#bc1829;
+    font-weight: bolder;
+    display: inline-block;
+    padding: 2%;
+}
+.contactanos{
+    background-color:#91838d;
+    border-color: #91838d;
+}
+.contactanos:hover{
+    background-color: #d76e78;
+    border-color: #d76e78;
+} 
+
+/*UN CONEJO NECESITA*/
+.conejo-necesita{
+    justify-content: center;
+}
+
+.boton-necesita{
+    padding: 2%;
+    border-radius: 5px; 
+    background-color: #91838d; 
+    color: white; 
+    border: none; 
+    cursor: pointer;
+     
+}
+
+.boton-necesita:hover{
+    background-color: #d76e78;
+    border-color: #d76e78;
+}
+/*BANNER INFERIOR*/
+.banner-inferior{
+    background-color:#304257;
+    color: white;
+    
+}
+/*FOOTER*/
+footer{
+    margin: 0;
+    background-color: #91838d;
+    justify-content: center;
+}
+i{
+    color: black;
+    font-size: 130%;
+}
+i:hover{
+    color: #f2c4c3;
+}
+
+/*-----------INFO Y CUIDADO------------*/
+
+.container h4{
+    display: inline-block;
+    color: #304257;
+    border-radius: 10px;
+    font-weight: bold;
+}
+img{
+    width: 80%;
+}
+.info{
+    background-color: #304257;
+    color: white;
+}
+
+/*------------------ADOPCIONES-------------------*/
+.card{
+    background-color: #304257;
+    color: #f2c4c3;
+}
+.boton-adop{
+    padding: 2%;
+    border-radius: 5px; 
+    background-color: #91838d; 
+    color: white; 
+    border: none; 
+    cursor: pointer;
+}
+.boton-adop:hover{
+    background-color: #d76e78;
+    border-color: #d76e78;
+}
+
+.card img{
+    padding: 3%;
+}
+
+
+/*-----------CONE1-6--------*/
+.volver-lista{
+    background-color: #304257;
+    border-color: #304257;
+}
+.volver-lista:hover{
+    background-color: #d76e78;
+    border-color: #d76e78;
+}
+
+@media (max-width: 575px){
+    .banner{
+        text-align: center;
+    }
+    .logo{
+        width: 2rem;
+    }
+}
+/*------------------COLABORA---------------*/
+.donaciones{
+    background-color:#f2c4c3;
+}
+.teamer{
+    background-color: #304257;
+    border-color: #304257;
+}
+.teamer:hover{
+    background-color: #d76e78;
+    border-color: #d76e78;
+}
+.transferencia, .bizum{
+    background-color: #304257;
+    color: white;
+    padding: 1.2%;
+    border-radius: 0.25rem; 
+    display: inline-block; 
+
+}
+.regalos{
+    background-color: #304257;
+    color: white;
+}
+.tiendas-regalos{
+    background-color:#d76e78;
+    border-color:#d76e78;
+}
+.tiendas-regalos:hover{
+    background-color: #bc1829;
+    border-color: #bc1829;
+}
+.footer-colabora{
+    background-color: #d76e78;
+}
